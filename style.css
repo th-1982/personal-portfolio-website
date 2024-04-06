@@ -8,7 +8,7 @@
 body{
     background-color: rgb(8, 8, 8);
     color: #fff;
-    font-weight: 300;
+   
     
 }
 
@@ -83,7 +83,126 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
-   
+
+}
+
+/* For Animation  */
+#flip {
+    height: 45px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #flip > div > div {
+    color: #fff;
+    text-align: center;
+    padding: 4px 12px;
+    height: 55px;
+    margin-bottom: 45px;
+    display: inline-block;
+  }
+  
+  #flip div:first-child {
+    -webkit-animation: show 5s linear infinite;
+            animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background: #ea4492;
+  }
+  #flip div:first-child div {
+    background: #428cd4;
+  }
+  #flip div:last-child div {
+    background: #FD4766;
+  }
+  
+  @-webkit-keyframes show {
+    0% {
+      margin-top: -270px;
+    }
+    5% {
+      margin-top: -180px;
+    }
+    33% {
+      margin-top: -180px;
+    }
+    38% {
+      margin-top: -90px;
+    }
+    66% {
+      margin-top: -90px;
+    }
+    71% {
+      margin-top: 0px;
+    }
+    99.99% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: -270px;
+    }
+  }
+  
+  @keyframes show {
+    0% {
+      margin-top: -270px;
+    }
+    5% {
+      margin-top: -180px;
+    }
+    33% {
+      margin-top: -180px;
+    }
+    38% {
+      margin-top: -90px;
+    }
+    66% {
+      margin-top: -90px;
+    }
+    71% {
+      margin-top: 0px;
+    }
+    99.99% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: -270px;
+    }
+  }
+  
+
+/*----------------About----------------------*/
+
+#about{
+    padding: 80px 0;
+    color: #fff;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
 }
 
 
