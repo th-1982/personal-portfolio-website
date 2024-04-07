@@ -40,7 +40,7 @@ nav{
 }
 
 span{
-    color: #FD4766;
+    color: #FE95A6;
 }
 
 nav ul li{
@@ -62,7 +62,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #FD4766;
+    background: #FE95A6;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -94,6 +94,41 @@ nav ul li a:hover::after{
    
 }
 
+
+/* Button Styling   */
+.button{
+    display: inline-block;
+    background: rgb(136, 1, 24);
+    border: 2px solid white;
+    color: white;
+    padding: 13px 13px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+   
+
+}
+
+.button:hover{
+    background: white;
+    border: 2px solid rgb(136, 1, 24);
+    color: rgb(136, 1, 24);
+    padding: 13px 13px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button:active{
+    opacity: 0.5;
+}
+
 /* For Animation  */
 #flip {
     height: 45px;
@@ -118,13 +153,13 @@ nav ul li a:hover::after{
   }
   
   #flip div div {
-    background: #ea4492;
+    background: #810e44;
   }
   #flip div:first-child div {
-    background: #428cd4;
+    background: #19426c;
   }
   #flip div:last-child div {
-    background: #FD4766;
+    background: #880118;
   }
   
   @-webkit-keyframes show {
