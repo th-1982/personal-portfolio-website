@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
+    <header id="header">
         <div class="container">
             <nav>
                 
@@ -55,8 +55,8 @@
     <!------------Button------------------>
           <a href="#contact" class="button">HIRE ME</a>
         </div>
-    </div>
-    <div>
+    </header>
+    <section>
     <!------------About---------------->
         <div id="about">
             <div class="container">
@@ -68,17 +68,33 @@
                         <h1 class="sub-title">About Me</h1>
                         <p>I am a full-stack developer. Before switching careers to web development, I attended Cisco Networking Academy (CCNAv7) and worked as a Secretary for three years. In 2023, I decided to take a leap of faith and trained with Code Institute to become a full-stack developer.
                             Now a fully-fledged developer, I enjoy designing and developing websites. I am studying Computer Science at Open University Abuja (an Online program) at the 300 level. I'm always eager to learn and take on new challenges, and I thrive in collaborative environments where I can contribute my skills and learn from others.</p>
-                            <h3>Personal Details</h3>
+                           
                             <div class="tab-titles">
-                            <p class="tab-links active-link">Personal Details</p>
-                            <p class="tab-links">Education</p>
-                            <p class="tab-links">Experience</p>
+                            <p class="tab-links active-link" onclick="opentab('personal-details')">Personal Details</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         </div>
-                        <div class="tab-contents">
+                        <div class="tab-contents active-tab" id="personal-details">
                             <ul>
                                 <li><span>Mobile Number:</span><br>015781281765</li>
-                                <li><span>Email:</span><br>theresawolff4@gmail</li>
+                                <li><span>Email:</span><br>theresawolff4@gmail.com</li>
                                 <li><span>Location:</span><br>Bayern, Germany</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2014 - Current</span><br>B.sc Computer Science at National Open University Abuja</li>
+                                <li><span>2014 - Current</span><br>Microsoft Office Specialist at Loctech</li>
+                                <li><span>2023 - 2024</span><br>Diploma in Full Satck Software Development at Code Institute </li>
+                                <li><span>08/2022 -10/2022 </span><br>Cisco Networking Academy(CCNAv7)</li>
+                                <li><span>05/2010 - 10/2010</span><br>Diploma with Destinction in Data Processing/Desktop Publishing at Skill Touch Institute, Abuja</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2011 - 2014</span><br>Secretary at Bitmap Solicitors Abuja</li>
+                                <li><span>12/12/2022 - 16/12/2022</span><br>Internship for IT Specialist for System Integration at AVS Römer</li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -86,6 +102,24 @@
 
             </div>
         </div>
-    </div>
+    </section>
+
+<!-------------------JavaScript Code---------------------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab");                           8
+    }
+    
+</script>
 </body>
 </html>
