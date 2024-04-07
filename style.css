@@ -86,6 +86,14 @@ nav ul li a:hover::after{
 
 }
 
+.intro-text{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #fff;
+   
+}
+
 /* For Animation  */
 #flip {
     height: 45px;
