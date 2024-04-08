@@ -81,8 +81,9 @@ nav ul li a:hover::after{
 }
 
 .header-text h1{
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -93,6 +94,48 @@ nav ul li a:hover::after{
     color: #fff;
    
 }
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.social-links{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-links li{
+  margin-right: 10px;
+}
+/*----------------fa icons---------------------*/
+.fa {
+  margin: 5px;
+  margin-left: 0;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25%;
+  font-size: 18px;
+  color: #ffffff;
+  background: #880118;
+  
+}
+
+.fa:hover {
+  background: #ffffff;
+  color: #880118;
+  transition: 1s;
+}
+
+
 
 
 /* Button Styling   */
@@ -108,7 +151,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     width: 200px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     cursor: pointer;
    
 
@@ -133,7 +176,7 @@ nav ul li a:hover::after{
 #flip {
     height: 45px;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -244,7 +287,7 @@ nav ul li a:hover::after{
 }
 
 .sub-title{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
     text-decoration: underline;
 }
