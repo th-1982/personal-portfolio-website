@@ -60,26 +60,26 @@
           <ul class="social-links">
             <li>
               <a href="https://github.com/th-1982/personal-portfolio-website" target="_blank">
-                <i class="fa fa-github" aria-hidden="true"></i>
+                <i class="fab fa-github" aria-hidden="true"></i>
                 <span class="sr-only">GitHub button</span>
               </a>
             </li>
 
             <li>
                 <a href="https://www.linkedin.com/in/theresa-wolff-4a3422265/" target="_blank">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <i class="fab fa-linkedin" aria-hidden="true"></i>
                   <span class="sr-only">LinkedIn button</span>
                 </a>
               </li>
 
               <li>
-                <a href="https://www.instagram.com/tessy4628/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
+                <a href="https://www.instagram.com/tessy4628/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
                   <span class="sr-only">Instagram button</span>
                 </a>
               </li>
               <!-- Please note I have not linked my FB account -->
               <li>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>
                     <span class="sr-only">Facebook button</span>
                 </a>
               </li>
@@ -97,10 +97,10 @@
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="images/about-image.jpg" alt="about-image">
+                        <img src="images/about-image.jpg" alt="about-image" width="400px">
                     </div>
                     <div class="about-col-2">
-                        <h1 class="sub-title">About Me</h1>
+                        <h1 class="sub-title"><span>About</span> Me</h1>
                         <p>I am a full-stack developer. Before switching careers to web development, I attended Cisco Networking Academy (CCNAv7) and worked as a Secretary for three years. In 2023, I decided to take a leap of faith and trained with Code Institute to become a full-stack developer.
                             Now a fully-fledged developer, I enjoy designing and developing websites. I am studying Computer Science at Open University Abuja (an Online program) at the 300 level. I'm always eager to learn and take on new challenges, and I thrive in collaborative environments where I can contribute my skills and learn from others.</p>
                            
@@ -140,11 +140,101 @@
     </section>
 
 <!----------------------Skills------------------------------>
-<div>
-    <div>
-        <h1 class="sub-title">Skills</h1>
+
+<h1 class="sub-title1"><span>My</span> Skills</h1>
+<section class="skill">
+    <div class="container1" id="technical-skills">
+    <h1 class="heading">Technical Skills</h1>
+    <div class="Technical-bars">
+        <div class="bar"><i style="color: #c95d2e;" class="fa-brands fa-html5"></i>
+        <div class="indfo">
+            <span>HTML</span>
+        </div>
+        <div class="progress-line html">
+            <span></span>
+
+        </div>
+    </div>
+    <div class="bar"><i style="color: #147bbc;" class="fa-brands fa-css3-alt"></i>
+        <div class="indfo">
+            <span>CSS</span>
+        </div>
+        <div class="progress-line css">
+            <span></span>
+
+        </div>
+    </div>
+    <div class="bar"><i style="color: #b0bc1e;" class="fa-brands fa-js"></i>
+        <div class="indfo">
+            <span>Javascript</span>
+        </div>
+        <div class="progress-line Javascript">
+            <span></span>
+
+        </div>
+    </div>
+    <div class="bar"><i style="color: #69BCBC;" class="fa-brands fa-react"></i>
+        <div class="indfo">
+            <span>React</span>
+        </div>
+        <div class="progress-line react">
+            <span></span>
+
+        </div>
+    </div>
+    <div class="bar"><i style="color: #c32ec9;" class="fa-brands fa-python"></i>
+        <div class="indfo">
+            <span>Python</span>
+        </div>
+        <div class="progress-line python">
+            <span></span>
+
+        </div>
+    </div>
     </div>
 </div>
+
+
+
+<div class="container1" id="professional-skills">
+    <h1 class="heading">Professional Skills</h1>
+    <div class="radial-bars">
+
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100"cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+        </div>
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100"cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">65%</div>
+            <div class="text">Communication</div>
+        </div>
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100"cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem Solving</div>
+        </div>
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100"cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">Teamwork</div>
+        </div>
+</div>
+</section>
+
 
 <!-------------------JavaScript Code---------------------->
 <script>
@@ -159,7 +249,7 @@
             tabcontent.classList.remove("active-tab");
         }
         event.currentTarget.classList.add("active-link"); 
-        document.getElementById(tabname).classList.add("active-tab");                           8
+        document.getElementById(tabname).classList.add("active-tab");                          
     }
     
 </script>
