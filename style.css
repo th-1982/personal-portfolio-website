@@ -629,3 +629,11 @@ section{
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
+
+
+/*-----------------Portfolio---------------------*/
+
+#portfolio{
+  padding: 50px 0;
+
+}
