@@ -121,17 +121,19 @@ nav ul li a:hover::after{
   height: auto;
   width: auto;
   text-align: center;
+  border: 1px solid #FE95A6;
   text-decoration: none;
   border-radius: 25%;
   font-size: 18px;
   color: #ffffff;
-  background: #880118;
+  background: rgb(14, 13, 13);
+ 
   
 }
 
 .fab:hover {
-  background: #ffffff;
-  color: #880118;
+  background: #FE95A6;
+  color: #0E0D0D;
   transition: 1s;
 }
 
@@ -141,15 +143,12 @@ nav ul li a:hover::after{
 /* Button Styling   */
 .button{
     display: inline-block;
-    background: rgb(136, 1, 24);
-    border: 2px solid white;
-    color: white;
-    padding: 13px 13px;
+    border: 1px solid #FE95A6;
+    color: #fff;
+    padding: 14px 50px;
     border-radius: 10px;
-    font-weight: 500;
-    font-size: 20px;
     text-decoration: none;
-    width: 200px;
+    width: fit-content;
     text-align: center;
     margin-top: 20px;
     cursor: pointer;
@@ -158,14 +157,9 @@ nav ul li a:hover::after{
 }
 
 .button:hover{
-    background: white;
-    border: 2px solid rgb(136, 1, 24);
-    color: rgb(136, 1, 24);
-    padding: 13px 13px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
+    background: #FE95A6;
+    color: #0E0D0D;
+   
 }
 
 .button:active{
@@ -342,9 +336,9 @@ nav ul li a:hover::after{
 
 .skill{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   padding: 20px 10%;
-  gap: 20px;
+  gap: 40px;
 }
 
 .sub-title1{
@@ -636,4 +630,87 @@ section{
 #portfolio{
   padding: 50px 0;
 
+}
+
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+
+.layer{
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.6), #FE95A6);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.layer a{
+  margin-top: 20px;
+  color: #FE95A6;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.work:hover img{
+  transform: scale(1.1);
+}
+
+.work:hover .layer{
+  height: 100%;
+}
+
+.btn{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #FE95A6;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+
+.btn:hover{
+  background-color: #FE95A6;
+  color: #0E0D0D;
 }
