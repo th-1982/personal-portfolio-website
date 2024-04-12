@@ -8,6 +8,7 @@
 body{
     background-color: rgb(8, 8, 8);
     color: #fff;
+    
    
     
 }
@@ -150,14 +151,15 @@ nav ul li a:hover::after{
     text-decoration: none;
     width: fit-content;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
     cursor: pointer;
+    transition: background-color 0.5s;
    
 
 }
 
 .button:hover{
-    background: #FE95A6;
+    background-color: #FE95A6;
     color: #0E0D0D;
    
 }
@@ -713,4 +715,46 @@ section{
 .btn:hover{
   background-color: #FE95A6;
   color: #0E0D0D;
+}
+
+/*-------------------Contact------------------------------*/
+
+.contact-left{
+  flex-basis: 35%;
+}
+
+.contact-right{
+  flex-basis: 60%;
+}
+
+.contact-left p{
+  margin-top: 30px;
+}
+
+.contact-left p i{
+  color: #FE95A6;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.btn.btn2{
+  display: inline-block;
+  background: #FE95A6;
+
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
 }
