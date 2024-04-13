@@ -38,7 +38,13 @@ nav{
     color: #fff;
     font-size: 33px;
     font-weight: bold;
+    
 }
+
+#header a {
+  text-decoration: none;
+}
+
 
 span{
     color: #FE95A6;
