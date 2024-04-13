@@ -92,6 +92,7 @@ nav ul li a:hover::after{
     font-size: 18px;
     font-weight: 300;
     margin-top: 20px;
+    margin-right: 20px;
     color: #fff;
    
 }
@@ -125,9 +126,11 @@ nav ul li a:hover::after{
   border: 1px solid #FE95A6;
   text-decoration: none;
   border-radius: 25%;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   background: rgb(14, 13, 13);
+  display: inline-block;
+  transition: transform 0.5s;
  
   
 }
@@ -135,7 +138,8 @@ nav ul li a:hover::after{
 .fab:hover {
   background: #FE95A6;
   color: #0E0D0D;
-  transition: 1s;
+  transform: translateY(-5px);
+
 }
 
 
@@ -737,9 +741,18 @@ section{
   font-size: 25px;
 }
 
+.social-links{
+  margin-top: 30px;
+}
+
+.social-links a{
+  margin-right: 10px;
+}
+
 .btn.btn2{
   display: inline-block;
   background: #FE95A6;
+  color: #0E0D0D;
 
 }
 
@@ -751,10 +764,30 @@ form input, form textarea{
   width: 100%;
   border: 0;
   outline: none;
-  background: #262626;
+  background: #333;
   padding: 15px;
   margin: 15px 0;
   color: #fff;
   font-size: 18px;
   border-radius: 6px;
+}
+
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #333;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.copyright i{
+  color: #FE95A6;
 }
