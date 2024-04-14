@@ -131,7 +131,7 @@ nav ul li a:hover::after{
   margin-right: 10px;
 }
 /*----------------fab icons---------------------*/
-.fab {
+.fa-brands {
   margin: 5px;
   margin-left: 0;
   padding: 10px;
@@ -150,7 +150,7 @@ nav ul li a:hover::after{
   
 }
 
-.fab:hover {
+.fa-brands:hover {
   background: #FE95A6;
   color: #0E0D0D;
   transform: translateY(-5px);
