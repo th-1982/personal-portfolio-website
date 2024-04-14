@@ -18,13 +18,15 @@
             <nav>
                 
                 <a href="index.html"><h1 class="logo"><span>T</span>heresa.</h1></a>
-                <ul>
-                    <li><a href="#">Home</a></li>
+                <ul id="menu">
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Junior Developer</p>
@@ -360,6 +362,20 @@
     }
     
 </script>
+
+<script>
+    var menu = document.getElementById("menu");
+
+    function openmenu(){
+        menu.style.right = "0"
+    }
+    function closemenu(){
+        menu.style.right = "-200px";
+    }
+
+</script>
+
+
 <!----------Font Awesome Script------------->
 <script src="https://kit.fontawesome.com/2a27a7ddec.js" crossorigin="anonymous"></script>
     </main>

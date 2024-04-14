@@ -90,6 +90,10 @@ nav ul li a:hover::after{
     
 }
 
+.active{
+  border-bottom: 1px solid #FE95A6;
+}
+
 
 .header-text{
     margin-top: 20%;
@@ -805,4 +809,63 @@ form .btn2{
 
 .copyright i{
   color: #FE95A6;
+}
+
+/*-----------------Css for small screens-------------------*/
+
+nav .fa-solid{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #header{
+    background-image: url(images/background-image4.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li{
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .header-text{
+    margin-top: 100%;
+    font-size: 16px;
+  }
+  .header-text h1{
+    font-size: 30px;
+  }
+  #flip{
+    
+    font-size: 14px;
+  }
+  .intro-text{
+    font-size: 15px;
+    
+  }
+  nav .fa-solid{
+    display: block;
+    font-size: 30px;
+  }
+  nav ul{
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 25px;
+  }
+  nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
 }
