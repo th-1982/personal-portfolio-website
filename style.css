@@ -31,6 +31,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .logo{
@@ -63,6 +71,7 @@ nav ul li a{
     font-weight: 700;
     font-size: 18px;
     position: relative;
+    transition: all 2s ease;
 }
 
 nav ul li a::after{
