@@ -4,6 +4,9 @@
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body{
     background-color: rgb(8, 8, 8);
@@ -310,6 +313,7 @@ nav ul li a:hover::after{
     font-size: 40px;
     font-weight: 600;
     text-decoration: underline;
+    
 }
 
 .tab-titles{
@@ -360,7 +364,7 @@ nav ul li a:hover::after{
 
 /*-----------------Skills-----------------------*/
 
-.skill{
+#skills{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 20px 10%;
@@ -371,10 +375,12 @@ nav ul li a:hover::after{
   text-align: center;
   font-size: 40px;
   font-weight: 600;
- 
+
   margin-bottom: 20px;
   text-decoration: underline;
+  
 }
+
 
 
 #technical-skills,
@@ -883,7 +889,7 @@ nav .fa-solid{
     font-size: 15px;
     margin-right: 20pxs;
   }
-  .skill{
+  #skills{
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px 10%;
