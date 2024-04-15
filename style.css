@@ -664,6 +664,7 @@ section{
   margin-top: 50px;
 }
 
+
 .work{
   border-radius: 10px;
   position: relative;
@@ -868,4 +869,49 @@ nav .fa-solid{
     left: 25px;
     cursor: pointer;
   }
+
+  .about-col-1, .about-col-2{
+    flex-basis: 100%;
+  }
+  .about-col-1{
+    margin-bottom: 30px;
+  }
+  .about-col-2{
+    font-size: 14px;
+  }
+  .tab-links{
+    font-size: 15px;
+    margin-right: 20pxs;
+  }
+  #technical-skills, #professional-skills{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+  }
+  .heading{
+    line-height: 1.8;
+  }
+  .text{
+    font-size: 12px;
+  }
+  .radial-bars .radial-bar svg{
+    width: 70px;
+    height: 70px;
+  }
+  .work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+  }
+  .layer h3{
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-left, .contact-right{
+    flex-basis: 100%;
+  }
+  
 }
