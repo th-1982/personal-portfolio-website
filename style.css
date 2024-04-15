@@ -883,22 +883,19 @@ nav .fa-solid{
     font-size: 15px;
     margin-right: 20pxs;
   }
+  .skill{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 10%;
+    gap: 40px;
+  }
   #technical-skills, #professional-skills{
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;   
   }
-  .heading{
-    line-height: 1.8;
-  }
-  .text{
-    font-size: 12px;
-  }
-  .radial-bars .radial-bar svg{
-    width: 70px;
-    height: 70px;
-  }
+  
   .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
