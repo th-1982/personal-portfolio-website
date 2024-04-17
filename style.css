@@ -312,8 +312,17 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 40px;
     font-weight: 600;
-    text-decoration: underline;
+/*    text-decoration: underline; */
     
+}
+
+.one{
+  background-color: #FE95A6;
+  border: none;
+  border: 3px solid #FE95A6;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .tab-titles{
@@ -371,15 +380,36 @@ nav ul li a:hover::after{
   gap: 40px;
 }
 
+.centered-container{
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
 .sub-title1{
   text-align: center;
   font-size: 40px;
   font-weight: 600;
+  margin-bottom: 0;
 
-  margin-bottom: 20px;
-  text-decoration: underline;
+ /* margin-bottom: 20px; */
+ /* text-decoration: underline; */ 
+}
+
+.two{
+  background-color: #FE95A6;
+  border: none;
+  border: 3px solid #FE95A6;
+  width: 13%;
+  margin: 10px auto 20px;
   
 }
+
+/*h1.two::after{
+  display: inline-block;
+  position: relative;
+  content: "My Skills";
+} */
 
 
 
@@ -664,6 +694,14 @@ section{
 
 }
 
+.three{
+  background-color: #FE95A6;
+  border: none;
+  border: 3px solid #FE95A6;
+  width: 17%;
+  margin: 10px auto 20px;
+}
+
 .work-list{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -752,6 +790,15 @@ section{
 
 .contact-left{
   flex-basis: 35%;
+}
+
+.four{
+  background-color: #FE95A6;
+  border: none;
+  border: 3px solid #FE95A6;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .contact-right{
@@ -885,6 +932,9 @@ nav .fa-solid{
   .about-col-2{
     font-size: 14px;
   }
+  .one{
+    width: 40%;
+  }
   .tab-links{
     font-size: 15px;
     margin-right: 20pxs;
@@ -894,6 +944,9 @@ nav .fa-solid{
     grid-template-columns: 1fr;
     padding: 20px 10%;
     gap: 40px;
+  }
+  .two{
+    width: 30%;
   }
   #technical-skills, #professional-skills{
     font-size: 16px;
@@ -908,10 +961,16 @@ nav .fa-solid{
     gap: 40px;
     margin-top: 50px;
   }
+  .three{
+    width: 40%;
+  }
   .layer h3{
     font-weight: 300;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .four{
+    width: 50%;
   }
   .contact-left, .contact-right{
     flex-basis: 100%;
