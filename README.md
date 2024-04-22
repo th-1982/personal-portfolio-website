@@ -16,3 +16,5 @@ Combining a dark background with a vibrant accent color in the color scheme resu
 
 ## Font
 Open Sans is the font used for the personal portfolio website. These fonts were chosen to maintain clarity and legibility in the site.
+
+![Fonts](readme_img/fonts-personal-portfolio.jpg)
