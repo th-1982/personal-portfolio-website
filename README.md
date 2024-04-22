@@ -18,3 +18,37 @@ Combining a dark background with a vibrant accent color in the color scheme resu
 Open Sans is the font used for the personal portfolio website. These fonts were chosen to maintain clarity and legibility in the site.
 
 ![Fonts](readme_img/fonts-personal-portfolio.jpg)
+
+# Technology Used
+
+## Languages
+* HTML
+* CSS
+* JavaScript
+
+## Frameworks & Tools
+* [GitHub](https://github.com/) - Host for the respostory
+* [Google Fonts](https://fonts.google.com/) - Source of fonts
+* [VS Code](https://code.visualstudio.com/) - Code editor
+* [Font Awesome](https://fontawesome.com/) - Source of icons
+* [Coolors.co](https://coolors.co/) - Tool used for generating color schemes and palettes
+* [TinyPNG](https://tinypng.com/) - Tool used for compressing and optimizing images.
+* [w3C](https://validator.w3.org/) - Tool used for code validation.
+* [Favicon](https://favicon.io/) - Tool used for website Identification  and visual consistency.
+* [Mockup Generator](https://techsini.com/multi-mockup/) - Used to create mockups.
+* Chrome DevTools - Testing tool
+
+# Testing 
+## Accessibilty & Performance
+* The lighthouse feature on Google Devtools was used to assess accessibility and performance. The pages score high on accessibility and performance.  
+
+<details>
+  <summary>Lighthouse</summary>
+  <img src="readme_img/portfolio-lighthouse-desktop - Kopie.jpg" width="750">
+  </details>
+
+## Responsiveness
+* The webpage for this website was tested for various devices, making use of both DevTools.
+It was adapted for desktops, laptops, and mobile devices under CSS Media queries.
+
+
