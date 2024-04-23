@@ -44,7 +44,7 @@ Open Sans is the font used for the personal portfolio website. These fonts were 
 
 <details>
   <summary>Lighthouse</summary>
-  <img src="readme_img/portfolio-lighthouse-desktop - Kopie.jpg" width="750">
+  <img src="readme_img/port1-lighthouse.jpg" width="750">
   </details>
 
 ## Responsiveness
