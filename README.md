@@ -51,4 +51,31 @@ Open Sans is the font used for the personal portfolio website. These fonts were 
 * The webpage for this website was tested for various devices, making use of both DevTools.
 It was adapted for desktops, laptops, and mobile devices under CSS Media queries.
 
+## HTML Validation
+
+## CSS Validation
+
+# Development Process
+## Development & Deployment
+The project was developed using GitHub and GitPod platforms.
+
+* Navigate to: "Repositories" and create "New".
+* Mark the following fields: ✓ Public ✓ Add a README file.
+* Select template: "Code-Institute-Org/gitpod-full-template".
+* Add a Repository name: "personal-portfolio-website".
+* And create Repository.
+
+This project was developed using VS Code and GitPod suffered various executions using the inbuild Terminal.
+* git add . - Command used before commiting.
+* git commit -m "written imperative declaration" - Command used to declare changes and updates.
+* git push - Command used to push all updates to the GitHub Repository and live version.
+
+
+The website was deployed via Github
+* Under the given Repository, navigate to "Settings".
+* Navigate to "Pages" from the left-hand bar.
+* From here the "Source" should be set to "Deploy from branch".
+* On "Branch" select "main" and save.
+* The website was deployed via Github and the live website can be found [here](https://th-1982.github.io/personal-portfolio-website/).
+
 
