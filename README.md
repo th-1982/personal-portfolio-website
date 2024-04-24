@@ -44,7 +44,7 @@ Open Sans is the font used for the personal portfolio website. These fonts were 
 
 <details>
   <summary>Lighthouse</summary>
-  <img src="readme_img/port1-lighthouse.jpg" width="750">
+  <img src="readme_img/port-lighthouse1.jpg" width="750">
   </details>
 
 ## Responsiveness
@@ -52,8 +52,25 @@ Open Sans is the font used for the personal portfolio website. These fonts were 
 It was adapted for desktops, laptops, and mobile devices under CSS Media queries.
 
 ## HTML Validation
+* The W3C markup Validation Service was used to validate the HTML of the website. All pages passed with no errors or warnings.
+
+<summary>HTML Validation Screenshot</summary>
+  <img src="readme_img/html-validation-port1.jpg" width="750">
+  </details>
 
 ## CSS Validation
+* The W3C Jigsaw CSS Validation Service was used to validation the CSS of the website. The code passed with no errors or warnings.
+
+<summary>CSS Validation Screenshot</summary>
+  <img src="readme_img/css-validation-port1.jpg" width="750">
+  </details>
+
+## Browser Compatibility
+
+  The website compatabiity was tested on the following browsers:
+  * Google Chrome 
+  * Firefox
+  * Microsoft Edge
 
 # Development Process
 ## Development & Deployment

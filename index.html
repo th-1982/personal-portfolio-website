@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--google fonts-->
+    <!---google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <!-------Css link-----------> 
+    <!---Css link--> 
     <link rel="stylesheet" href="style.css">
-    <!---------Favicon------------------>
+    <!---Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="favicon_io/site.webmanifest">
-    <!-------Title----------->
+    <!---Title-->
     <title>Personal Portfolio Website</title>
 </head>
 <body>
@@ -22,14 +22,16 @@
         <div class="container">
             <nav>
                 
-                <a href="index.html"><h1 class="logo"><span>T</span>heresa</h1></a>
+                <a href="#index.html">
+                    <h1 class="logo"><span>T</span>heresa</h1>
+                </a>
                 <ul id="menu">
                     <li><a href="#header" class="active-link">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
@@ -37,9 +39,9 @@
                 <p>Junior Developer</p>
                 <h1>Hi, I'm <span>Theresa</span> Wolff<br> from Germany</h1>
             </div>
-    <!------------Animation Container-------------------------->
+    <!---Animation Container-->
     <div class="container-animation">
-    <!----------------Animation--------------------------->
+    <!---Animation-->
         <div id="flip">
             <div>
                 <div>Hey there</div>
@@ -52,7 +54,7 @@
             </div>
         </div>
     </div>
-    <!-----------------Description---------------------------------->
+    <!---Description-->
     <div class="row">
         <div class="col">
             <p class="intro-text">
@@ -60,7 +62,7 @@
             </p>
         </div>
     </div>
-    <!-------------Social media links---------------------->
+    <!---Social media links-->
     <div class="row">
         <div class="col">
           <ul class="social-links">
@@ -95,12 +97,12 @@
           </div>
         </div>
 
-    <!------------Button------------------>
+    <!---Button-->
           <a href="#contact" class="button">HIRE ME</a>
         </div>
     </header>
 
-    <!------------About---------------->
+    <!---About-->
     <main>
         <section id="about">
             <div class="container">
@@ -147,18 +149,18 @@
         </div>
     </section>
 
-<!----------------------Skills------------------------------>
+<!---Skills-->
 <div class="centered-container">
 <h1 class="sub-title1"><span>My</span> Skills</h1>
 <hr class="two">
 </div>
 <section id="skills">
-    <!----------------------Technical Skills------------------------------>
+    <!---Technical Skills-->
     <div class="container1" id="technical-skills">
     <h1 class="heading">Technical Skills</h1>
     <div class="Technical-bars">
         <div class="bar"><i style="color: #c95d2e;" class="fa-brands fa-html5"></i>
-        <div class="indfo">
+        <div class="info">
             <span>HTML</span>
         </div>
         <div class="progress-line html">
@@ -167,7 +169,7 @@
         </div>
     </div>
     <div class="bar"><i style="color: #147bbc;" class="fa-brands fa-css3-alt"></i>
-        <div class="indfo">
+        <div class="info">
             <span>CSS</span>
         </div>
         <div class="progress-line css">
@@ -176,7 +178,7 @@
         </div>
     </div>
     <div class="bar"><i style="color: #b0bc1e;" class="fa-brands fa-js"></i>
-        <div class="indfo">
+        <div class="info">
             <span>Javascript</span>
         </div>
         <div class="progress-line Javascript">
@@ -185,7 +187,7 @@
         </div>
     </div>
     <div class="bar"><i style="color: #69BCBC;" class="fa-brands fa-react"></i>
-        <div class="indfo">
+        <div class="info">
             <span>React</span>
         </div>
         <div class="progress-line react">
@@ -194,7 +196,7 @@
         </div>
     </div>
     <div class="bar"><i style="color: #c32ec9;" class="fa-brands fa-python"></i>
-        <div class="indfo">
+        <div class="info">
             <span>Python</span>
         </div>
         <div class="progress-line python">
@@ -205,7 +207,7 @@
     </div>
 </div>
 
-<!----------------------Professional Skills------------------------------>
+<!---Professional Skills-->
 
 <div class="container1" id="professional-skills">
     <h1 class="heading">Professional Skills</h1>
@@ -213,40 +215,41 @@
 
         <div class="radial-bar">
             <svg x="0px" y="0px" viewBox="0 0 200 200">
-                <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
-            <circle class="path path-1" cx="100"cy="100" r="80"></circle>
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
             </svg>
             <div class="percentage">90%</div>
             <div class="text">Creativity</div>
         </div>
         <div class="radial-bar">
             <svg x="0px" y="0px" viewBox="0 0 200 200">
-                <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
-            <circle class="path path-1" cx="100"cy="100" r="80"></circle>
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
             </svg>
             <div class="percentage">65%</div>
             <div class="text">Communication</div>
         </div>
         <div class="radial-bar">
             <svg x="0px" y="0px" viewBox="0 0 200 200">
-                <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
-            <circle class="path path-1" cx="100"cy="100" r="80"></circle>
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
             </svg>
             <div class="percentage">75%</div>
             <div class="text">Problem Solving</div>
         </div>
         <div class="radial-bar">
             <svg x="0px" y="0px" viewBox="0 0 200 200">
-                <circle class="progress-bar" cx="100"cy="100" r="80"></circle>
-            <circle class="path path-1" cx="100"cy="100" r="80"></circle>
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
             </svg>
             <div class="percentage">85%</div>
             <div class="text">Teamwork</div>
         </div>
+        </div>
 </div>
 </section>
 
-<!------------------Portfolio------------------------------->
+<!---Portfolio-->
 <section id="portfolio">
     <div class="container">
         <h1 class="sub-title1"><span>My</span> Work</h1>
@@ -295,7 +298,7 @@
 
 </section>
 
-<!----------------------Contact------------------------------>
+<!---Contact-->
 
 <section id="contact">
     <div class="container">
@@ -347,11 +350,11 @@
 
 </section>
 
-<!-------------------JavaScript Link---------------------->
+<!---JavaScript Link-->
 
 <script src="js/script.js"></script>
 
-<!----------Font Awesome Script------------->
+<!---Font Awesome Script-->
 <script src="https://kit.fontawesome.com/2a27a7ddec.js" crossorigin="anonymous"></script>
     </main>
 </body>

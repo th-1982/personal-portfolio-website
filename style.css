@@ -12,7 +12,7 @@ body{
     background-color: rgb(8, 8, 8);
     color: #fff;
     
-   
+/* Header */  
     
 }
 
@@ -138,7 +138,7 @@ nav ul li a:hover::after{
 .social-links li{
   margin-right: 10px;
 }
-/*----------------fab icons---------------------*/
+/* fab icons */
 .fa-brands {
   margin: 5px;
   margin-left: 0;
@@ -168,7 +168,7 @@ nav ul li a:hover::after{
 
 
 
-/* Button Styling   */
+/* Button Styling */
 .button{
     display: inline-block;
     border: 1px solid #FE95A6;
@@ -283,7 +283,7 @@ nav ul li a:hover::after{
   }
   
 
-/*----------------About----------------------*/
+/* About */
 
 #about{
     padding: 80px 0;
@@ -312,7 +312,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 40px;
     font-weight: 600;
-/*    text-decoration: underline; */
+
     
 }
 
@@ -371,7 +371,7 @@ nav ul li a:hover::after{
   display: block;
 }
 
-/*-----------------Skills-----------------------*/
+/* Skills */
 
 #skills{
   display: grid;
@@ -392,8 +392,7 @@ nav ul li a:hover::after{
   font-weight: 600;
   margin-bottom: 0;
 
- /* margin-bottom: 20px; */
- /* text-decoration: underline; */ 
+ 
 }
 
 .two{
@@ -404,13 +403,6 @@ nav ul li a:hover::after{
   margin: 10px auto 20px;
   
 }
-
-/*h1.two::after{
-  display: inline-block;
-  position: relative;
-  content: "My Skills";
-} */
-
 
 
 #technical-skills,
@@ -437,13 +429,6 @@ section{
     display: flex;
     flex-wrap: wrap;
 }
-
-/*.container1{
-    width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
-} */
 
 .heading{
     text-align: center;
@@ -687,7 +672,7 @@ section{
 }
 
 
-/*-----------------Portfolio---------------------*/
+/* Portfolio */
 
 #portfolio{
   padding: 50px 0;
@@ -786,7 +771,7 @@ section{
   color: #0E0D0D;
 }
 
-/*-------------------Contact------------------------------*/
+/* Contact */
 
 .contact-left{
   flex-basis: 35%;
@@ -866,7 +851,7 @@ form .btn2{
   color: #FE95A6;
 }
 
-/*-----------------Css for small screens-------------------*/
+/*----Css for small screens---------*/
 
 nav .fa-solid{
   display: none;
@@ -937,7 +922,7 @@ nav .fa-solid{
   }
   .tab-links{
     font-size: 15px;
-    margin-right: 20pxs;
+   
   }
   #skills{
     display: grid;
